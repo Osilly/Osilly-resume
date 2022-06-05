@@ -8,14 +8,14 @@
         </a-col>
         <!-- 头像 -->
         <a-col :xs="24" :sm="6" :md="4" :lg="4" :xl="4">
-            <a-popover arrowPointAtCenter>
-                <template slot="content">
+            <!-- <a-popover arrowPointAtCenter> -->
+            <!-- <template slot="content">
                     <Badge />
-                </template>
-                <span class="avatar ant-avatar ant-avatar-circle ant-avatar-image">
-                    <img alt="Osilly" draggable="false" src="../assets/avatar.jpg" />
-                </span>
-            </a-popover>
+                </template> -->
+            <span class="avatar ant-avatar ant-avatar-circle ant-avatar-image">
+                <img alt="Osilly" draggable="false" src="../assets/avatar.jpg" />
+            </span>
+            <!-- </a-popover> -->
         </a-col>
         <!-- 社交 -->
         <a-col :xs="24" :sm="8" :md="6" :lg="6" :xl="6">

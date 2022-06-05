@@ -1,10 +1,10 @@
 {
   // 页面title
-  title: "林舍 - 林中小舍",
+  title: "Osilly-Resume",
   // 社交链接
   social: {
-    github: "https://github.com/manerfan",
-    twitter: "https://twitter.com/manerfan_china",
+    github: "https://github.com/Osilly",
+    twitter: "https://twitter.com/Osilly6",
     linkedin: "https://www.linkedin.com/in/%E6%96%87%E8%BD%A9-%E9%BB%84-691ba5227/",
   },
   // banner页
@@ -15,7 +15,9 @@
       name: "首页",
     },
     title: "Osilly",
+    name: "Osilly",
     desc: [
+      "AI",
       "计算机视觉",
     ],
   },
@@ -37,23 +39,21 @@
         subtitle: "about me",
       },
       content: {
-        name: "林舍",
         desc: [
-          "林中通幽静",
-          "深山藏小舍",
+          "AI",
+          "计算机视觉",
         ],
-        md: "鄙人林舍，生于河北，纯北方汉子，苦读十二载，后求学于西安~\
-        \n『**厚德、求真、砺学、笃行**』这是母校给予的八字真言，四年本科生涯、三年研究生涯，良师益友收获颇多~\
-        \n求学之际偶遇佳人，毕业之后终成正果，小窝一间、少爷一个，平平淡淡、快快乐乐~\
-        \n前有微波天线、后学电磁黑障，本非科班出身，出于热情投身猿类大军~\
-        \n工作五六载，两域三城奔波，累哉累哉，自知其中快乐~",
+        md: "生于安徽，求学十余载\
+        \n喜欢写代码，~~不喜欢写注释~~\
+        \n**喜欢AI，喜欢计算机视觉，喜欢ACM和算法，喜欢单机游戏**\
+        \n所使用的编程语言：C\\C++、Python",
       },
       // key - value 数量及内容完全自定义，链接自动识别
       keys: {
-        "主页": "http://cv.manerfan.com",
-        "博客": "http://blog.manerfan.com",
-        "专栏": "http://zhuanlan.manerfan.com",
-        "公众号": "林中小舍"
+        "主页": "https://osilly.github.io/",
+        "博客": "https://www.osilly.space",
+        "知乎": "https://www.zhihu.com/people/ning-meng-85-36-71",
+        
       },
     },
     // 履历
@@ -70,51 +70,51 @@
       },
       cards: [
         {
-          title: "阿里巴巴（中国）网络技术有限公司",
-          //subtitle: "2018-08 至 今",
-          md: "<!--**<u>高级开发工程师</u>**-->\
+          title: "三峡大学",
+          subtitle: "2019-09 - 至今",
+          md: "**<u>本科</u>**\
           \n\
-          \nAli的包容性带来更广的舞台与更大的成长空间，身为Alier，很荣幸能在这样的一家公司共同奋斗、发展",
+          \n**专业：数据科学与大数据技术**\
+          \n\
+          \n我在这段时间就读于**三峡大学**，我的研究方向与兴趣为：**计算机视觉**\
+          \n具体来说，是**计算机视觉中的 GAN 与 语义分割**\
+          \n我所喜欢做的事情：**炼丹、ACM、steam**\
+          \n\
+          \n在这段时间，我也收获了一些荣誉\
+          \n- **2019-2021学年总专业排名第一**\
+          \n- 2019-2020学年长江电力奖学金（获奖比例2%）\
+          \n- **2020-2021学年国家奖学金（获奖比例0.15%）**",
         },
+      ],
+    },
+    // 出版物
+    {
+      display: true,
+      anchor: {
+        id: "publication",
+        icon: "book",
+        name: "出版物",
+      },
+      header: {
+        title: "publication",
+        subtitle: "my publication",
+      },
+      cards: [
         {
-          title: "海航科技有限公司",
-          //subtitle: "2016-12 至 2018-08",
-          md: "<!--**<u>高级Java工程师</u>**-->\
-          \n\
-          \n海航是将我引向'互联网'的一艘船\
-          \n做为HNAer，很感谢HNA以及各位同仁能够提供这样一个舞台，来接触如此纷繁的、更为'互联网化'的技术，在HNA认识如此之多优秀的同仁尤为庆幸\
-          \n很遗憾HNA的一些变故影响到了很多事情，也带来了很多不愉快"
-        },
-        {
-          title: "北京数码视讯有限公司",
-          //subtitle: "2013-04 至 2016-12",
-          md: "<!--**<u>技术经理</u>**-->\
-          \n\
-          \n由于专业和课题的原因并未进入'理想'中的体制内，凭借着对coding的一腔热情，一头扎进了猿类大军\
-          \n做为数码人，很感激数码在职场专业化成长上给予的空间",
-        },
-        {
-          title: "西安电子科技大学",
-          subtitle: "2010-09 至 2013-04",
-          md: "**<u>研究生</u>**\
-          \n\
-          \n<!--**专业**：电路与系统-->\
-          \n\
-          \n惧怕过早接触社会选择了读研\
-          \n三年研究生涯对于(课题)研究的 **<u>意义</u>** 有了更深层次的理解\
-          \n由于自己的原因并没有继续读博，虽向往，但无悔",
-        },
-        {
-          title: "西安电子科技大学",
-          subtitle: "2016-09 至 2010-09",
-          md: "**<u>本科生</u>**\
-          \n\
-          \n<!--**专业**：电子信息工程-->\
-          \n\
-          \n第一次背井离乡，站了一个晚上的火车，远赴千里之外求学\
-          \n踏进校园的一刻很激动，第一天晚上心口刺痛的时候就开始想家了\
-          \n四年象牙塔生活很充实，也第一次感受到了四年同寝离别时的伤感之情",
-        },
+          link: 'https://www.antdv.com/',
+          title: "First arrival picking of microseismic signals based on U-LA-GAN and Improved PSPNet (IEEE TGRS, under review)",
+          image: 'https://osillypicture.xyz/2022/05/26/6ca56f0cc4e1c.png',
+          md:
+              "建立精确高效的微地震信号初至拾取对提升微地震记录处理的精度和效率至关重要。\
+              然而，微地震震级微弱、微震记录信噪比低，传统的信号拾取方法难以高精度、\
+              高效率进行微地震信号处理。为有效地利用微地震信号的特征，\
+              显著提高初至拾取的精度与效率，本文借助深度学习思想，\
+              针对微地震数据难以精确获取的问题，研究基于深度学习的小样本条件下微地震信号初至拾取方法。\
+              在构建一种全新的无监督网络Unsupervised Generative Adversarial Networks with Latent Space and Adaptive Layer-Instance Normalization(U-LA-GAN) \
+              基础上，在无监督条件下生成大量的有效微地震信号，实现对小样本微地震数据的扩容。在此基础上，我们使用Improved Pyramid Scene Parsing Network(Improved PSPNet) \
+              拾取微地震信号初至。该网络通过构建AND-OR Grammar Block(AOGBlock)结构，充分提取序列数据特征，更好地实现低信噪比环境下的信噪分离，提高低信噪比微地震信号初至拾取的准确性。\
+              我们的方法通过与 PSPNet_R50、PSPNet_R101 的结果进行比较，证明了所提出方法的优越性。",
+        }
       ],
     },
     // 博客页
@@ -129,8 +129,8 @@
         title: "blog",
         subtitle: "latest blog",
       },
-      blog: "https://segmentfault.com/blog/manerfan",
-      rss: "https://segmentfault.com/feeds/blog/manerfan",
+      blog: "https://www.osilly.space/",
+      rss: "https://www.osilly.space/index.php/feed/",
     },
   ],
 }

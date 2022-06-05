@@ -12,7 +12,7 @@
                             <img width="100%" height="100%" data-aos="fade-in" class="avatar" draggable="false"
                                 v-bind:src="card.image" />
                         </a-col>
-                        <a-col flex="1"></a-col>
+                        <a-col flex="0.5"></a-col>
                         <a-col flex="5" class="col" :xs="24" :sm="24" :md="24" :lg="12" :xl="10">
                             <vue-markdown>{{ card.md }}</vue-markdown>
                         </a-col>

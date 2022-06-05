@@ -50,7 +50,7 @@
       },
       // key - value 数量及内容完全自定义，链接自动识别
       keys: {
-        "主页": "http://cv.manerfan.com",
+        "主页": "https://osilly.github.io/",
         "博客": "https://www.osilly.space",
         "知乎": "https://www.zhihu.com/people/ning-meng-85-36-71",
         
@@ -92,7 +92,7 @@
       display: true,
       anchor: {
         id: "publication",
-        icon: "",
+        icon: "book",
         name: "出版物",
       },
       header: {
