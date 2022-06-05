@@ -40,6 +40,7 @@
       },
       content: {
         desc: [
+          "AI",
           "计算机视觉",
         ],
         md: "生于安徽，求学十余载\
@@ -86,6 +87,36 @@
         },
       ],
     },
+    // 出版物
+    {
+      display: true,
+      anchor: {
+        id: "publication",
+        icon: "",
+        name: "出版物",
+      },
+      header: {
+        title: "publication",
+        subtitle: "my publication",
+      },
+      cards: [
+        {
+          link: 'https://www.antdv.com/',
+          title: "First arrival picking of microseismic signals based on U-LA-GAN and Improved PSPNet (IEEE TGRS, under review)",
+          image: 'https://osillypicture.xyz/2022/05/26/6ca56f0cc4e1c.png',
+          md:
+              "建立精确高效的微地震信号初至拾取对提升微地震记录处理的精度和效率至关重要。\
+              然而，微地震震级微弱、微震记录信噪比低，传统的信号拾取方法难以高精度、\
+              高效率进行微地震信号处理。为有效地利用微地震信号的特征，\
+              显著提高初至拾取的精度与效率，本文借助深度学习思想，\
+              针对微地震数据难以精确获取的问题，研究基于深度学习的小样本条件下微地震信号初至拾取方法。\
+              在构建一种全新的无监督网络Unsupervised Generative Adversarial Networks with Latent Space and Adaptive Layer-Instance Normalization(U-LA-GAN) \
+              基础上，在无监督条件下生成大量的有效微地震信号，实现对小样本微地震数据的扩容。在此基础上，我们使用Improved Pyramid Scene Parsing Network(Improved PSPNet) \
+              拾取微地震信号初至。该网络通过构建AND-OR Grammar Block(AOGBlock)结构，充分提取序列数据特征，更好地实现低信噪比环境下的信噪分离，提高低信噪比微地震信号初至拾取的准确性。\
+              我们的方法通过与 PSPNet_R50、PSPNet_R101 的结果进行比较，证明了所提出方法的优越性。",
+        }
+      ],
+    },
     // 博客页
     {
       display: true,
@@ -100,35 +131,6 @@
       },
       blog: "https://www.osilly.space/",
       rss: "https://www.osilly.space/index.php/feed/",
-    },
-    // 出版物
-    {
-      display: true,
-      anchor: {
-        id: "publication",
-        icon: "",
-        name: "论文",
-      },
-      header: {
-        title: "publication",
-        subtitle: "my publication",
-      },
-      cards: [
-        {
-          href: 'https://www.antdv.com/',
-          title: "ant design vue part 1",
-          avatar: 'https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png',
-          md:
-              "Ant Design, a design language for background applications, is refined by Ant UED Team.",
-        },
-        {
-          href: 'https://www.antdv.com/',
-          title: "ant design vue part 2",
-          avatar: 'https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png',
-          md:
-              'We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently.',
-        }
-      ],
     },
   ],
 }

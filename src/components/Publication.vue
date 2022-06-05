@@ -5,15 +5,15 @@
             <a-timeline-item data-aos="fade-in" v-for="card in publication.cards" v-bind:key="card.title">
                 <a-card class="publication-card" :bordered="true" style="width: 100%">
                     <template slot="title">
-                        <h1 class="title">{{ card.title }}</h1>
+                        <a class="title" href="card.link" target="_blank">{{ card.title }}</a>
                     </template>
                     <a-row type="flex" justify="left" align="top">
-                        <a-col flex="100px" class="col" :xs="24" :sm="24" :md="24" :lg="12" :xl="10">
+                        <a-col flex="2.5" class="col" :xs="24" :sm="24" :md="24" :lg="12" :xl="10">
                             <img width="100%" height="100%" data-aos="fade-in" class="avatar" draggable="false"
-                                src="../assets/about/avatar_about.jpg" />
+                                v-bind:src="card.image" />
                         </a-col>
-                        <a-col flex="80px"></a-col>
-                        <a-col flex="auto" class="col" :xs="24" :sm="24" :md="24" :lg="12" :xl="10">
+                        <a-col flex="1"></a-col>
+                        <a-col flex="5" class="col" :xs="24" :sm="24" :md="24" :lg="12" :xl="10">
                             <vue-markdown>{{ card.md }}</vue-markdown>
                         </a-col>
                     </a-row>
@@ -46,6 +46,8 @@ import { Module } from '@/api/user_interface';
 export default class Publication extends Vue {
 }
 
+
+
 </script>
 
 <style scoped lang="scss">
@@ -58,6 +60,7 @@ export default class Publication extends Vue {
         overflow: scroll;
         margin: 0;
         font-weight: bold;
+        color: rgb(136, 133, 133);
     }
 
     .sub-title {
