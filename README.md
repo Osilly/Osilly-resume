@@ -22,5 +22,3 @@
    ```
    npm run serve
    ```
-
-   

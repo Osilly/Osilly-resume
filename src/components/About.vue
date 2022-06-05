@@ -15,15 +15,16 @@
                 <span data-aos="fade-in" class="title color-title">{{ about.header.subtitle }}</span>
                 <!-- 简介 -->
                 <span data-aos="fade-in" class="brief typer black">
-                    {{ about.content.name }}，
-                    <vue-typer :text="about.content.desc || '林舍'" :type-delay='200' eraseStyle='select-all'></vue-typer>
+                    <!-- {{ about.content.name }}， -->
+                    <vue-typer :text="about.content.desc || 'Osilly-Resume'" :type-delay='200' eraseStyle='select-all'>
+                    </vue-typer>
                 </span>
                 <!-- 正文 -->
                 <vue-markdown data-aos="fade-in">{{ about.content.md }}</vue-markdown>
                 <!-- 关键词 -->
                 <a-row data-aos="fade-in" class="keys-row" type="flex" align="top">
                     <a-col class="keys-col" v-for="(value, name) in about.keys" v-bind:key="name" :xs="24" :sm="24"
-                        :md="12" :lg="12" :xl="12">
+                        :md="24" :lg="24" :xl="24">
                         <span class="key">{{ name }}:</span>
                         <a class="value" v-if="isUrl(value)" :href="value" target="_blank">{{ value | simplifyUrl }}</a>
                         <span v-else>{{ value }}</span>

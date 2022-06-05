@@ -7,9 +7,9 @@
             <img alt="GitHub" src="https://img.shields.io/github/license/manerfan/vuesume">
         </a>
         <!-- 版本号 -->
-        <a href="https://github.com/manerfan/vuesume/" target="_blank">
+        <!-- <a href="https://github.com/manerfan/vuesume/" target="_blank">
             <img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/manerfan/vuesume">
-        </a>
+        </a> -->
         <!-- stars -->
         <a href="https://github.com/manerfan/vuesume/" target="_blank">
             <img alt="GitHub stars" src="https://img.shields.io/github/stars/manerfan/vuesume">
@@ -26,15 +26,15 @@
 </template>
 
 <script lang="ts">
-    import {Component, Vue} from 'vue-property-decorator';
+import { Component, Vue } from 'vue-property-decorator';
 
-    @Component({})
-    export default class Badge extends Vue {
-    }
+@Component({})
+export default class Badge extends Vue {
+}
 </script>
 
 <style scoped lang="scss">
-    a {
-        margin: 0.5em;
-    }
+a {
+    margin: 0.5em;
+}
 </style>

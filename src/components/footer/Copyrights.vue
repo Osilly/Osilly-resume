@@ -22,12 +22,12 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 -->
 
-<!-- <template>
-    <a :style="{ color: color, 'font-size': size + 'em' }" href="https://github.com/manerfan/vuesume/blob/master/LICENSE"
-        target="_blank">
-        ©2020 林舍|Maner·Fan All rights reserved
+<template>
+    <a :style="{ color: color, 'font-size': size + 'em' }"
+        href="https://github.com/Osilly/Osilly-resume/blob/main/LICENSE" target="_blank">
+        ©2022 Osilly All rights reserved
     </a>
-</template> -->
+</template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
