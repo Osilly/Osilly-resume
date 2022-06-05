@@ -1,7 +1,7 @@
 # Osilly-resume
  个人简历
 
-## 如何运行
+## 如何运行（开发环境）
 
 1. 删除`node_modules`文件夹（如果存在）
 
@@ -22,3 +22,4 @@
    ```
    npm run serve
    ```
+

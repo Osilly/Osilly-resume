@@ -101,5 +101,34 @@
       blog: "https://www.osilly.space/",
       rss: "https://www.osilly.space/index.php/feed/",
     },
+    // 出版物
+    {
+      display: true,
+      anchor: {
+        id: "publication",
+        icon: "",
+        name: "论文",
+      },
+      header: {
+        title: "publication",
+        subtitle: "my publication",
+      },
+      cards: [
+        {
+          href: 'https://www.antdv.com/',
+          title: "ant design vue part 1",
+          avatar: 'https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png',
+          md:
+              "Ant Design, a design language for background applications, is refined by Ant UED Team.",
+        },
+        {
+          href: 'https://www.antdv.com/',
+          title: "ant design vue part 2",
+          avatar: 'https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png',
+          md:
+              'We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently.',
+        }
+      ],
+    },
   ],
 }

@@ -32,6 +32,7 @@
                     <About v-if="id === 'about'" />
                     <Blog v-if="id === 'blog'" />
                     <Experience v-if="id === 'experience'" />
+                    <Publication v-if="id === 'publication'" />
                 </a-layout-content>
                 <!-- 页脚 -->
                 <a-layout-footer>
@@ -56,6 +57,7 @@ import Menu from '@/components/Menu.vue';
 import About from '@/components/About.vue';
 import Experience from '@/components/Experience.vue';
 import Blog from '@/components/Blog.vue';
+import Publication from '@/components/Publication.vue';
 import Footer from '@/components/Footer.vue';
 
 @Component({
@@ -65,6 +67,7 @@ import Footer from '@/components/Footer.vue';
         About,
         Experience,
         Blog,
+        Publication,
         Footer,
     },
     computed: {

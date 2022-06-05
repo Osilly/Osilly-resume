@@ -24,7 +24,10 @@
       "dom",
       "dom.iterable",
       "scripthost"
-    ]
+    ],
+    "typeRoots": [
+      "src/globalDeclare"
+    ],
   },
   "include": [
     "src/**/*.ts",
