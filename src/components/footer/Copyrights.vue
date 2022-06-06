@@ -23,8 +23,8 @@ SOFTWARE.
 -->
 
 <template>
-    <a :style="{ color: color, 'font-size': size + 'em' }" href="https://github.com/Osilly/Osilly-resume/main/LICENSE"
-        target="_blank">
+    <a :style="{ color: color, 'font-size': size + 'em' }"
+        href="https://github.com/Osilly/Osilly-resume/blob/main/LICENSE" target="_blank">
         ©2022 Osilly All rights reserved
     </a>
 </template>
