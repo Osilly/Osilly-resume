@@ -2,18 +2,17 @@
     <div class="content" id="publication">
         <ModuleHeader :title="publication.header.title" :sub-title="publication.header.subtitle" />
         <a-timeline>
-            <a-timeline-item data-aos="fade-in" v-for="card in publication.cards" v-bind:key="card.title">
+            <a-timeline-item type="flex" data-aos="fade-in" v-for="card in publication.cards" v-bind:key="card.title">
                 <a-card class="publication-card" :bordered="true" style="width: 100%">
                     <template slot="title">
                         <a class="title" href="card.link" target="_blank">{{ card.title }}</a>
                     </template>
-                    <a-row type="flex" justify="left" align="top">
-                        <a-col flex="2.5" class="col" :xs="24" :sm="24" :md="24" :lg="12" :xl="10">
-                            <img width="100%" height="100%" data-aos="fade-in" class="avatar" draggable="false"
-                                v-bind:src="card.image" />
+                    <a-row type="flex" justify="center" wrap="true" align="top">
+                        <a-col flex="2.5" class="col" :xs="24" :sm="24" :md="24" :lg="10" :xl="8">
+                            <img width="80%" height="80%" v-bind:src="card.image" />
                         </a-col>
-                        <a-col flex="0.5"></a-col>
-                        <a-col flex="5" class="col" :xs="24" :sm="24" :md="24" :lg="12" :xl="10">
+                        <!-- <a-col flex="0.5" class="col" :xs="24" :sm="24" :md="24" :lg="32" :xl="32"></a-col> -->
+                        <a-col flex="5" class="col" :xs="24" :sm="24" :md="24" :lg="14" :xl="16">
                             <vue-markdown>{{ card.md }}</vue-markdown>
                         </a-col>
                     </a-row>
