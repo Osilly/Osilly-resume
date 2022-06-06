@@ -41,4 +41,26 @@ GitHub地址为：https://github.com/Osilly/Osilly-resume
 
 2. 将获得的`docs`文件夹中文件上传到你的github page仓库
 
-   
+## 配置文件
+
+目录结构（docs）：
+
+```
+vuesume
+├── index.html          // 主页HTML
+├── favicon.ico         // 网站图标
+├── data.json5          // 配置文件 
+├── css                 // 样式
+│   ├── app.xxx.css
+│   └── chunk-vendors.xxx.css
+├── img                 // 图片
+│   ├── avatar.xxx.jpg          // banner + menue + footer 头像
+│   ├── avatar_about.xxx.jpg    // 关于模块头像
+│   ├── bg_banner.xxx.jpg       // banner模块背景图
+└── js                  // 脚本
+    ├── app.xxx.js
+    └── chunk-vendors.xxx.js
+```
+
+你只需要修改导出的`docs`中的`data.json5`配置文件即可自定义
+
