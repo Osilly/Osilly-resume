@@ -62,5 +62,5 @@ vuesume
     └── chunk-vendors.xxx.js
 ```
 
-你只需要修改导出的`docs`中的`data.json5`配置文件即可自定义
+你只需要修改导出的`docs`中的`data.json5`配置文件即可自定义文字，更换img中图片即可自定义图片
 
