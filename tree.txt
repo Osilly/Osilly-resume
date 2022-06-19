@@ -1,0 +1,92 @@
+文件夹 PATH 列表
+卷序列号为 0000006B 12B9:5F1E
+D:\GITHUB\OSILLY-RESUME\OSILLY-RESUME-MAIN
+│  .gitattributes
+│  .gitignore
+│  LICENSE
+│  oss.js
+│  package-lock.json
+│  package.json
+│  preview
+│  README.md
+│  tsconfig.json
+│  tslint.json
+│  vue.config.js
+│  
+├─docs
+│  │  data.json5
+│  │  favicon.ico
+│  │  index.html
+│  │  
+│  ├─css
+│  │      app.f3d4d0f8.css
+│  │      chunk-vendors.401427ca.css
+│  │      
+│  ├─img
+│  │      avatar.d933ec82.jpg
+│  │      avatar_about.512f9e39.jpg
+│  │      bg_banner.16df5634.jpg
+│  │      
+│  └─js
+│          app.ed6edb7a.js
+│          chunk-vendors.4b52eda6.js
+│          
+├─public
+│      data.json5
+│      favicon.ico
+│      index.html
+│      
+└─src
+    │  App.vue
+    │  main.ts
+    │  router.ts
+    │  shims-tsx.d.ts
+    │  shims-vue.d.ts
+    │  store.ts
+    │  
+    ├─@types
+    │      aos.ts
+    │      vue-markdown.d.ts
+    │      vue-typer.d.ts
+    │      vue2-smooth-scroll.d.ts
+    │      
+    ├─api
+    │      index.ts
+    │      rss_interface.ts
+    │      user_interface.ts
+    │      
+    ├─assets
+    │  │  avatar.jpg
+    │  │  bg_banner.jpg
+    │  │  
+    │  └─about
+    │          avatar_about.jpg
+    │          
+    ├─components
+    │  │  About.vue
+    │  │  Banner.vue
+    │  │  Blog.vue
+    │  │  Experience.vue
+    │  │  Footer.vue
+    │  │  Menu.vue
+    │  │  Publication.vue
+    │  │  
+    │  ├─footer
+    │  │      Badge.vue
+    │  │      Copyrights.vue
+    │  │      Social.vue
+    │  │      
+    │  └─module
+    │          ModuleHeader.vue
+    │          ModuleSkeleton.vue
+    │          
+    ├─styles
+    │      fork.scss
+    │      main.scss
+    │      typer.scss
+    │      variable.scss
+    │      
+    └─views
+            About.vue
+            Home.vue
+            
